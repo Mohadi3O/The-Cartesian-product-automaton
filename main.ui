@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1823</width>
+    <height>1004</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 255);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QPushButton" name="b_add_n2">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>add node</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_add_e2">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>add edge</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_new2">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>new</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_open2">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>open</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save2">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);
+</string>
+           </property>
+           <property name="text">
+            <string>SAVE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">font: 87 12pt &quot;Arial Black&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Automata 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l2">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>A2.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>34</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QPushButton" name="b_prodect">
+           <property name="styleSheet">
+            <string notr="true">font: 87 72pt &quot;Arial Black&quot;;
+background-color: rgb(0, 170, 0);</string>
+           </property>
+           <property name="text">
+            <string>X</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save3">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>26</pointsize>
+             <weight>10</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <kerning>false</kerning>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>CrossCursor</cursorShape>
+           </property>
+           <property name="mouseTracking">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+font: 87 26pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>Save</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 85, 255);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="b_add_n1">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>add node</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_add_e1">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>add edge</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_new1">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>new</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_open1">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>open</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save1">
+           <property name="styleSheet">
+            <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
+background-color: rgb(170, 170, 0);
+border-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>SAVE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="maximumSize">
+            <size>
+             <width>400</width>
+             <height>300</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 87 12pt &quot;Arial Black&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Automata 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l1">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>A1.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>34</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="l3">
+      <property name="minimumSize">
+       <size>
+        <width>1650</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>400</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::VLine</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>A3.png</pixmap>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
