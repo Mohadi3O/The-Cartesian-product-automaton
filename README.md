@@ -7,6 +7,9 @@
 - **initial_state:** it's the start state of the automata ,the its color in plot is green
 - **finaly_states:** it's an array of finaly states of the automata ,the its color in plot is red
 
+## ** you need to install this :**
+- pip install PyQt5 matplotlib networkx PyQt5 json 
+
 
 
 
